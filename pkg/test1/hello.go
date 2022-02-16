@@ -7,3 +7,7 @@ type TestSay struct {
 func (ts *TestSay) TestSayHello() {
 	fmt.Printf("%#v\n", *ts)
 }
+
+func Say() {
+	fmt.Println("this is tmodule-test1")
+}
